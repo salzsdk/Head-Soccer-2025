@@ -1133,3 +1133,9 @@ https://templatemo.com/tm-596-electric-xtra
                 transform: scale(0.6);
             }
         }
+            @media (max-width: 768px) {
+            .features-container {
+            flex-direction: column; /* Stacks the video on top of text on phones */
+            height: auto;           /* Removes the fixed landscape height */
+           }
+        }
